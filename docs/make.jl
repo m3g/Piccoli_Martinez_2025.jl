@@ -38,8 +38,8 @@ makedocs(
     ),
     pages = [
         "Home" => "index.md",
-        "Complementary data" => "SystemsData.md",
-        "Supporting MDDFs and KBIs" => "SupportingCurves.md",
+        "Supplementary Tables" => "SystemsData.md",
+        "Supplementary Figures" => "SupportingCurves.md",
     ],
 )
 
