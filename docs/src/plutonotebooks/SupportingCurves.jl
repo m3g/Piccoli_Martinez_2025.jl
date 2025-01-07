@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.19.46
+# v0.20.3
 
 using Markdown
 using InteractiveUtils
@@ -16,7 +16,7 @@ end
 
 # ╔═╡ ebffc62c-c33c-45ad-921e-e65b87b6d889
 md"
-# Minimum-distance distribution functions and Kirkwood-Buff integrals.
+# Minimum-distance distribution functions for all ionic liquids simulated.
 "
 
 # ╔═╡ f2fa1b1a-4ce1-4a29-92db-d0993c13ca30
@@ -75,16 +75,8 @@ md"
 
 # ╔═╡ f7a323f0-a719-4618-9263-e7b371f558e6
 md"
-# Density map of the ions and water around the protein residues
+# Density map of the ions and water around the protein residues at ~1.0 $\textrm{mol L}^{-1}$.
 "
-
-# ╔═╡ 7235ffb3-da4c-4a9a-bbe2-e705e8a3050f
-md"""
-colocar aqui uma imagen da ubiquitina COm resíduos ácidos, basicos, neutros e polares.
-
-O resíduos devem estar coloridos e embaixo eu devo colorir de acordo com a Figura.
-
-"""
 
 # ╔═╡ c04e9302-1f3c-4617-821d-aa22978c16f2
 
@@ -137,16 +129,8 @@ md"
 
 # ╔═╡ 33a1fa66-dcaa-4720-99c8-c589541ed525
 md"
-# Preferential solvation (``\Gamma_{cp}``) and hydration (``\Gamma_{wp}``) parameters
+# Preferential hydration (``\Gamma_{wp}``) parameters
 "
-
-# ╔═╡ 624bdac5-b491-41f9-9f77-a0b83a101de0
-md"""
-!!! info "General Theory"
-	Some notebook environments have different **cell types**: a *code* cell and a *Markdown* cell.
-
-	In Pluto, there is **only one cell type**: a Julia cell. But you can use the Julia string macro `md"` to write Markdown inside of Julia! 🤯
-"""
 
 # ╔═╡ 138d3d57-f4ff-47e1-a200-56aa9cb131d0
 begin
@@ -171,6 +155,8 @@ md"""
 	Here, the calculations were performed using the function **bulk_coordination()** available in the package MolSimToolkit.jl. It computes the coordination number of one type of solvent molecule relative to another solvent molecule, as a function of the distance to a reference solute molecule.
 
 	For example, imagine a protein solvated in water and glycerol. This function allows for the computation of the number of water molecules within a given distance of the glycerol molecules, as a function of the distance to the protein. In other words, it calculates the coordination number of water relative to glycerol, as a function of the distance to the protein. The same strategy is applied to the IL ions in this study. Effectively, the maximum distance to the solute considered for a solvent molecule to be coordinated is set to 5 Å.
+
+	The concentrations represent the actual bulk concentrations of the ionic liquids, calculated after system equilibration.
 """
 
 # ╔═╡ b1f11b33-7fa9-44fb-8a0a-58885b87abe6
@@ -207,6 +193,59 @@ end
 # ╔═╡ 54cf7f5b-b61a-4ab0-934c-e5a897651868
 md"
 **Figure S12** – Coordination number of the cation with respect to the cations in systems with A) $$[\textrm{NO}_{3}]^{-}$$ and B) $$[\textrm{Cl}]^{-}$$ anions. Water coordination number around cations in systems paired with C) $$[\textrm{NO}_{3}]^{-}$$ and D) $$[\textrm{Cl}]^{-}$$ at different concentrations of IL solutions.
+"
+
+# ╔═╡ 8c998b74-3463-4679-840e-3480da5e2e89
+md"
+# Water Minimum-distance distribution functions and Kirkwood-Buff integrals.
+"
+
+# ╔═╡ 7cf16d5f-e4a3-488b-9c0b-1d83b71b0874
+begin
+	img_wt1 = Images.load("Figures/SI_water/SI_mddfs_bf4_no3-water.png")
+	img_wt1
+	plot(heatmap(img_wt1, color=:auto), size=(1000, 750), ticks=false, framestyle=:none)
+end
+
+# ╔═╡ 37a76f50-55b2-4a9a-ba6c-2abb003be878
+md"
+**Figure S13** – Minimum-distance distribution functions of water molecules in systems containing **A)** $[\text{EMIM}][\text{BF}_{4}]$, **B)** $[\text{EMIM}][\text{NO}_{3}]$, **C)** $[\text{BMIM}][\text{BF}_{4}]$, and **D)** $[\text{BMIM}][\text{NO}_{3}]$, evaluated across all simulated reference concentrations. Each curve represents the mean value derived from 20 independent simulation runs.
+"
+
+# ╔═╡ fa51eb4a-28f2-4796-bd9c-3ba5af46c4c1
+begin
+	img_wt2 = Images.load("Figures/SI_water/SI_kbis_bf4_no3-water.png")
+	img_wt2
+	plot(heatmap(img_wt2, color=:auto), size=(1000, 750), ticks=false, framestyle=:none)
+end
+
+# ╔═╡ c6dfed62-87a6-404b-90b3-f54126c9cbc2
+md"
+**Figure S14** – Kirkwood-Buff integrals of water molecules in systems containing **A)** $[\text{EMIM}][\text{BF}_{4}]$, **B)** $[\text{EMIM}][\text{NO}_{3}]$, **C)** $[\text{BMIM}][\text{BF}_{4}]$, and **D)** $[\text{BMIM}][\text{NO}_{3}]$, evaluated across all simulated reference concentrations. Each curve represents the mean value derived from 20 independent simulation runs.
+"
+
+# ╔═╡ 647f26e5-453f-4db3-b824-a0c84c85f23d
+begin
+	img_wt3 = Images.load("Figures/SI_water/SI_mddfs_cl_dca-water.png")
+	img_wt3
+	plot(heatmap(img_wt3, color=:auto), size=(1000, 750), ticks=false, framestyle=:none)
+end
+
+# ╔═╡ 9780253e-f7cf-4482-81bd-bd5034f34d77
+md"
+**Figure S15** – Minimum-distance distribution functions of water molecules in systems containing **A)** $[\text{EMIM}][\text{Cl}]$, **B)** $[\text{EMIM}][\text{DCA}]$, **C)** $[\text{BMIM}][\text{Cl}]$, and **D)** $[\text{BMIM}][\text{DCA}]$, evaluated across all simulated reference concentrations. Each curve represents the mean value derived from 20 independent simulation runs.
+"
+
+# ╔═╡ a96a4b38-36ce-4c67-ac92-2692445ca86e
+begin
+	img_wt4 = Images.load("Figures/SI_water/SI_kbis_cl_dca-water.png")
+	img_wt4
+	plot(heatmap(img_wt4, color=:auto), size=(1000, 750), ticks=false, framestyle=:none)
+end
+
+# ╔═╡ fa0c9e2a-98ab-4ded-a09c-26219d3fd6ed
+md"
+**Figure S16** – Kirkwood-Buff integrals of water molecules in systems containing **A)** $[\text{EMIM}][\text{Cl}]$, **B)** $[\text{EMIM}][\text{DCA}]$, **C)** $[\text{BMIM}][\text{Cl}]$, and **D)** $[\text{BMIM}][\text{DCA}]$, evaluated across all simulated reference concentrations. Each curve represents the mean value derived from 20 independent simulation runs.
 "
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
@@ -2525,7 +2564,6 @@ version = "1.4.1+1"
 # ╟─638e0eb2-1bc2-4bbb-99d9-416255251570
 # ╟─517fd90d-efaf-412a-8236-b5277a1b0a69
 # ╟─f7a323f0-a719-4618-9263-e7b371f558e6
-# ╟─7235ffb3-da4c-4a9a-bbe2-e705e8a3050f
 # ╟─c04e9302-1f3c-4617-821d-aa22978c16f2
 # ╟─a8640d76-8028-4a6e-a070-3082f4569bd9
 # ╟─94559bde-2235-420a-af13-b994fad498e2
@@ -2535,7 +2573,6 @@ version = "1.4.1+1"
 # ╟─3c1f8568-8d2f-4cd3-b9c9-b36c75e7c877
 # ╟─981e78a0-2959-472c-aef9-003c9fff328f
 # ╟─33a1fa66-dcaa-4720-99c8-c589541ed525
-# ╟─624bdac5-b491-41f9-9f77-a0b83a101de0
 # ╟─138d3d57-f4ff-47e1-a200-56aa9cb131d0
 # ╟─3f2c5b4b-630b-42cd-aa44-8eea9204065c
 # ╟─f581511b-717e-4e7a-98d4-1884ebeda2c2
@@ -2546,5 +2583,14 @@ version = "1.4.1+1"
 # ╟─62f462b1-4b14-4366-842f-55d9a911aa43
 # ╟─f84ecd14-22d1-4c34-bda6-67b72453ba34
 # ╟─54cf7f5b-b61a-4ab0-934c-e5a897651868
+# ╟─8c998b74-3463-4679-840e-3480da5e2e89
+# ╟─7cf16d5f-e4a3-488b-9c0b-1d83b71b0874
+# ╟─37a76f50-55b2-4a9a-ba6c-2abb003be878
+# ╟─fa51eb4a-28f2-4796-bd9c-3ba5af46c4c1
+# ╟─c6dfed62-87a6-404b-90b3-f54126c9cbc2
+# ╟─647f26e5-453f-4db3-b824-a0c84c85f23d
+# ╟─9780253e-f7cf-4482-81bd-bd5034f34d77
+# ╟─a96a4b38-36ce-4c67-ac92-2692445ca86e
+# ╟─fa0c9e2a-98ab-4ded-a09c-26219d3fd6ed
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
