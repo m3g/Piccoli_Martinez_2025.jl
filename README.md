@@ -2,7 +2,7 @@
 [![Coverage](https://codecov.io/gh/viniciuspiccoli/Piccoli_Martinez_2025.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/viniciuspiccoli/Piccoli_Martinez_2025.jl)
 
 
-# Supporting Information for: Reversal of Protein Preferential Solvation by Ionic Liquids: Alkyl Chain Length and Concentration Effects.
+# Supporting Information for: Cation Hydrophobicity Effects on Protein Solvation in Aqueous Ionic Liquids
 
 
 ## Authors
