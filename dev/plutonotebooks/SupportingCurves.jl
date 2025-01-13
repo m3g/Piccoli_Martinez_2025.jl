@@ -25,9 +25,12 @@ begin
 	plot(heatmap(figs1, color=:auto), size=(800, 600), ticks=false, framestyle=:none)
 end
 
-# ╔═╡ dc9b8701-437a-48c2-a510-7e03a14727ed
-md"
-**Figure S1** – Minimum-distance distribution functions (MDDFs) for the anions $[\text{Cl}]^{-}$ and $[\text{DCA}]^{-}$ paired with the cations $[\text{EMIM}]^{+}$ and $[\text{BMIM}]^{+}$. The panels show the MDDFs of anions at various reference concentrations (in $\mathrm{mol\ L^{-1}}$) simulated for the IL systems: **A)** $[\text{EMIM}][\text{Cl}]$, **B)** $[\text{EMIM}][\text{DCA}]$, **C)** $[\text{BMIM}][\text{Cl}]$, and **D)** $[\text{BMIM}][\text{DCA}]$. Each curve represents the mean value calculated from 20 independent simulations.
+# ╔═╡ 7ded2a42-cd22-4eb2-bf08-ed6d2ea22893
+md"**Figure S1** – Minimum-distance distribution functions (MDDFs) of anions $[\text{Cl}]^{-}$ and $[\text{DCA}]^{-}$ around the protein in ionic liquid (IL) solutions. The figure highlights how anions distribute with respect to the protein surface, evaluated across different reference concentrations (in $\mathrm{mol\ L^{-1}}$). The panels illustrate MDDFs for four IL systems:  
+**A)** $[\text{EMIM}][\text{Cl}]$,  
+**B)** $[\text{EMIM}][\text{DCA}]$,  
+**C)** $[\text{BMIM}][\text{Cl}]$, and  
+**D)** $[\text{BMIM}][\text{DCA}]$. Each curve represents the mean of 20 independent simulations, providing insight into the interaction patterns of the anions with the protein under varying ionic environments.
 "
 
 # ╔═╡ 23cde5c3-8452-4cbb-ac1a-b35544492512
@@ -36,11 +39,12 @@ begin
 	plot(heatmap(figs2, color=:auto), size=(800, 600), ticks=false, framestyle=:none)
 end
 
-# ╔═╡ 30ec26c2-946c-4d0c-8df9-4830244d5a11
-md"
-
-**Figure S2** – Minimum-distance distribution functions (MDDFs) for the anions $[\text{BF}_{4}]^{-}$ and $[\text{NO}_{3}]^{-}$ paired with the cations $[\text{EMIM}]^{+}$ and $[\text{BMIM}]^{+}$. The panels show the MDDFs of anions at various reference concentrations (in $\mathrm{mol\ L^{-1}}$) simulated for the IL systems: **A)** $[\text{EMIM}][\text{BF}_{4}]$, **B)** $[\text{EMIM}][\text{NO}_{3}]$, **C)** $[\text{BMIM}][\text{BF}_{4}]$, and **D)** $[\text{BMIM}][\text{NO}_{3}]$. Each curve represents the mean value calculated from 20 independent simulations.
-
+# ╔═╡ eaeec702-8161-4cfa-a06f-cc9706690d0e
+md"**Figure S2** – Minimum-distance distribution functions (MDDFs) for the anions $[\text{BF}_{4}]^{-}$ and $[\text{NO}_{3}]^{-}$ around the protein in ionic liquid (IL) solutions. This figure illustrates the spatial distribution of anions relative to the protein surface, evaluated across a range of reference concentrations (in $\mathrm{mol\ L^{-1}}$). The panels depict MDDFs for four IL systems:  
+**A)** $[\text{EMIM}][\text{BF}_{4}]$,  
+**B)** $[\text{EMIM}][\text{NO}_{3}]$,  
+**C)** $[\text{BMIM}][\text{BF}_{4}]$, and  
+**D)** $[\text{BMIM}][\text{NO}_{3}]$. Each curve represents the mean of 20 independent simulations, offering insights into the interaction dynamics of the anions with the protein under different ionic environments.
 "
 
 # ╔═╡ ca80155f-f014-4b7d-b9a2-c1558e9201df
@@ -49,15 +53,14 @@ begin
 	plot(heatmap(figs4, color=:auto), size=(800, 600), ticks=false, framestyle=:none)
 end
 
-# ╔═╡ 78d62d51-272c-4c67-8f91-65011f3257c3
-md"
-
-
-**Figure S3** – Minimum-distance distribution functions (MDDFs) for the cations paired with the anions $[\text{Cl}]^{-}$ and $[\text{DCA}]^{-}$. The panels show the MDDFs of cations at various reference concentrations (in $\mathrm{mol\ L^{-1}}$) simulated for the IL systems: **A)** $[\text{EMIM}][\text{Cl}]$, **B)** $[\text{EMIM}][\text{DCA}]$, **C)** $[\text{BMIM}][\text{Cl}]$, and **D)** $[\text{BMIM}][\text{DCA}]$. Each curve represents the mean value calculated from 20 independent simulations.
-
-
-
+# ╔═╡ a234add7-f5e8-483d-b0a4-0492b29c7538
+md"**Figure S3** – Minimum-distance distribution functions (MDDFs) for the cations $[\text{EMIM}]^{+}$ and $[\text{BMIM}]^{+}$ around the protein in ionic liquid (IL) solutions, paired with the anions $[\text{Cl}]^{-}$ and $[\text{DCA}]^{-}$. This figure illustrates the spatial distribution of cations relative to the protein surface across various reference concentrations (in $\mathrm{mol\ L^{-1}}$). The panels show MDDFs for four IL systems:  
+**A)** $[\text{EMIM}][\text{Cl}]$,  
+**B)** $[\text{EMIM}][\text{DCA}]$,  
+**C)** $[\text{BMIM}][\text{Cl}]$, and  
+**D)** $[\text{BMIM}][\text{DCA}]$. Each curve represents the mean of 20 independent simulations, providing insights into the behavior of cations in the presence of different anions and their interaction dynamics with the protein.
 "
+
 
 # ╔═╡ 638e0eb2-1bc2-4bbb-99d9-416255251570
 begin
@@ -65,12 +68,12 @@ begin
 	plot(heatmap(figs3, color=:auto), size=(800, 600), ticks=false, framestyle=:none)
 end
 
-# ╔═╡ 517fd90d-efaf-412a-8236-b5277a1b0a69
-md"
-
-**Figure S4** – Minimum-distance distribution functions (MDDFs) for the cations paired with the anions $[\text{BF}_{4}]^{-}$ and $[\text{NO}_{3}]^{-}$. The panels show the MDDFs of cations at various reference concentrations (in $\mathrm{mol\ L^{-1}}$) simulated for the IL systems: **A)** $[\text{EMIM}][\text{BF}_{4}]$, **B)** $[\text{EMIM}][\text{NO}_{3}]$, **C)** $[\text{BMIM}][\text{BF}_{4}]$, and **D)** $[\text{BMIM}][\text{NO}_{3}]$. Each curve represents the mean value calculated from 20 independent simulations.
-
-
+# ╔═╡ c9fb8e18-6b18-404c-b24b-4bda17c3e1fb
+md"**Figure S4** – Minimum-distance distribution functions (MDDFs) for the cations $[\text{EMIM}]^{+}$ and $[\text{BMIM}]^{+}$ around the protein in ionic liquid (IL) solutions, paired with the anions $[\text{BF}_{4}]^{-}$ and $[\text{NO}_{3}]^{-}$. This figure illustrates the spatial distribution of cations relative to the protein surface across a range of reference concentrations (in $\mathrm{mol\ L^{-1}}$). The panels depict MDDFs for four IL systems:  
+**A)** $[\text{EMIM}][\text{BF}_{4}]$,  
+**B)** $[\text{EMIM}][\text{NO}_{3}]$,  
+**C)** $[\text{BMIM}][\text{BF}_{4}]$, and  
+**D)** $[\text{BMIM}][\text{NO}_{3}]$. Each curve represents the mean of 20 independent simulations, providing insights into the interaction dynamics of cations with the protein under varying ionic environments.
 "
 
 # ╔═╡ f7a323f0-a719-4618-9263-e7b371f558e6
@@ -85,9 +88,8 @@ begin
 	plot(heatmap(img_d1, color=:auto), size=(1000, 750), ticks=false, framestyle=:none)
 end
 
-# ╔═╡ a8640d76-8028-4a6e-a070-3082f4569bd9
-md"
-**Figure S5** – Density difference map of system components comparing the cation [BMIM]⁺ to [EMIM]⁺ within 3.5 Å of the protein surface. Red regions indicate a higher density of a solvent component in the system with [BMIM]⁺, while blue regions indicate a higher density with [EMIM]⁺. The maps represent density differences for ~1.0 $\textrm{mol L}^{-1}$ IL solutions with the anion $[\textrm{DCA}]^{-}$.
+# ╔═╡ 0d63c7a3-df7d-4d62-a03f-babe5b758b37
+md"**Figure S5** – Difference in protein residue contributions to the solvent-protein distribution functions for systems with $[\text{BMIM}]^{+}$ (denoted as underscore (2)) and $[\text{EMIM}]^{+}$ (denoted as underscore (1)). The density difference map compares the contributions of each protein residue to the MDDFs within 3.5 Å of the protein surface, based on data from 20 independent simulations for both cations. Red regions indicate a higher density of the solvent component in the $[\text{BMIM}]^{+}$ system, while blue regions indicate a higher density in the $[\text{EMIM}]^{+}$ system. The maps represent ~1.0 $\mathrm{mol\ L^{-1}}$ IL solutions with the anion $[\text{DCA}]^{-}$.
 "
 
 # ╔═╡ 94559bde-2235-420a-af13-b994fad498e2
@@ -97,9 +99,8 @@ begin
 	plot(heatmap(img_d2, color=:auto), size=(1000, 750), ticks=false, framestyle=:none)
 end
 
-# ╔═╡ b403a4fb-a13a-4379-afc6-fb2623727a69
-md"
-**Figure S6** – Density difference map of system components comparing the cation [BMIM]⁺ to [EMIM]⁺ within 3.5 Å of the protein surface. Red regions indicate a higher density of a solvent component in the system with [BMIM]⁺, while blue regions indicate a higher density with [EMIM]⁺. The maps represent density differences for ~1.0 $\textrm{mol L}^{-1}$ IL solutions with the anion $[\textrm{Cl}]^{-}$.
+# ╔═╡ 42efe817-7eec-4211-b1d9-54047852a036
+md"**Figure S6** – Difference in protein residue contributions to the solvent-protein distribution functions for systems with $[\text{BMIM}]^{+}$ (denoted as underscore (2)) and $[\text{EMIM}]^{+}$ (denoted as underscore (1)). The density difference map compares the contributions of each protein residue to the MDDFs within 3.5 Å of the protein surface, based on data from 20 independent simulations for both cations. Red regions indicate a higher density of the solvent component in the $[\text{BMIM}]^{+}$ system, while blue regions indicate a higher density in the $[\text{EMIM}]^{+}$ system. The maps represent ~1.0 $\mathrm{mol\ L^{-1}}$ IL solutions with the anion $[\text{Cl}]^{-}$.
 "
 
 # ╔═╡ 12738938-6b8d-4def-85d1-ba8e67be102f
@@ -109,10 +110,8 @@ begin
 	plot(heatmap(img_d3, color=:auto), size=(1000, 750), ticks=false, framestyle=:none)
 end
 
-# ╔═╡ 95a06115-dff4-4c99-bf9e-fab68f8a2fdf
-md"
-**Figure S7** – Density difference map of system components comparing the cation [BMIM]⁺ to [EMIM]⁺ within 3.5 Å of the protein surface. Red regions indicate a higher density of a solvent component in the system with [BMIM]⁺, while blue regions indicate a higher density with [EMIM]⁺. The maps represent density differences for ~1.0 $\textrm{mol L}^{-1}$ IL solutions with the anion $[\textrm{BF}_{4}]^{-}$.
-
+# ╔═╡ b9ded9b5-1a3a-4f6f-be76-aeef407fbc76
+md"**Figure S7** – Difference in protein residue contributions to the solvent-protein distribution functions for systems with $[\text{BMIM}]^{+}$ (denoted as underscore (2)) and $[\text{EMIM}]^{+}$ (denoted as underscore (1)). The density difference map compares the contributions of each protein residue to the MDDFs within 3.5 Å of the protein surface, based on data from 20 independent simulations for both cations. Red regions indicate a higher density of the solvent component in the $[\text{BMIM}]^{+}$ system, while blue regions indicate a higher density in the $[\text{EMIM}]^{+}$ system. The maps represent ~1.0 $\mathrm{mol\ L^{-1}}$ IL solutions with the anion $[\text{BF}_{4}]^{-}$.
 "
 
 # ╔═╡ 3c1f8568-8d2f-4cd3-b9c9-b36c75e7c877
@@ -122,9 +121,8 @@ begin
 	plot(heatmap(img_d4, color=:auto), size=(1000, 750), ticks=false, framestyle=:none)
 end
 
-# ╔═╡ 981e78a0-2959-472c-aef9-003c9fff328f
-md"
-**Figure S8** – Density difference map of system components comparing the cation [BMIM]⁺ to [EMIM]⁺ within 3.5 Å of the protein surface. Red regions indicate a higher density of a solvent component in the system with [BMIM]⁺, while blue regions indicate a higher density with [EMIM]⁺. The maps represent density differences for ~1.0 $\textrm{mol L}^{-1}$ IL solutions with the anion $[\textrm{NO}_{3}]^{-}$.
+# ╔═╡ 71d8f6ca-a734-4d8f-8859-8855081f38c3
+md"**Figure S8** – Difference in protein residue contributions to the solvent-protein distribution functions for systems with $[\text{BMIM}]^{+}$ (denoted as underscore (2)) and $[\text{EMIM}]^{+}$ (denoted as underscore (1)). The density difference map compares the contributions of each protein residue to the MDDFs within 3.5 Å of the protein surface, based on data from 20 independent simulations for both cations. Red regions indicate a higher density of the solvent component in the $[\text{BMIM}]^{+}$ system, while blue regions indicate a higher density in the $[\text{EMIM}]^{+}$ system. The maps represent ~1.0 $\mathrm{mol\ L^{-1}}$ IL solutions with the anion $[\text{NO}_{3}]^{-}$.
 "
 
 # ╔═╡ 33a1fa66-dcaa-4720-99c8-c589541ed525
@@ -139,14 +137,13 @@ begin
 	plot(heatmap(img_xx, color=:auto), size=(1000, 750), ticks=false, framestyle=:none)
 end
 
-# ╔═╡ 3f2c5b4b-630b-42cd-aa44-8eea9204065c
-md"
-**Figure S9** – Comparison of Minimum-Distance Distribution Functions (MDDFs) and Kirkwood-Buff (KB) integrals for ionic liquid systems containing [EMIM]⁺ and [BMIM]⁺ cations with various anions. Panels **A** and **D** compare the cations [EMIM]⁺ and [BMIM]⁺; panels **B** and **E** compare [BF₄]⁻ anions paired with [EMIM]⁺ and [BMIM]⁺; and panels **C** and **F** compare [DCA]⁻ anions paired with [EMIM]⁺ and [BMIM]⁺.
-"
+# ╔═╡ b1b3a2fc-0e12-4bcf-9eb0-33eed6e7c09b
+md"**Figure S9** – Preferential hydration parameters of the protein ($\Gamma_{wp}$) for water relative to the ILs across different compositions and concentrations. The error bars represent the standard errors of the mean calculated from 20 simulation replicates. RC denotes the reference concentration, cited in the main text as $C_{IL}$."
+
 
 # ╔═╡ f581511b-717e-4e7a-98d4-1884ebeda2c2
 md"
-# Analyses of Coordination number in the bulk solution.
+# Coordination number in the bulk solution.
 "
 
 # ╔═╡ bddf9ef0-a97a-40e5-ac2c-8c8dc4e70d03
@@ -166,10 +163,9 @@ begin
 	plot(heatmap(img_CN1, color=:auto), size=(1000, 750), ticks=false, framestyle=:none)
 end
 
-# ╔═╡ 6a3d81c1-5c66-43d4-9522-c1e27846d944
-md"
-**Figure S10** – Water coordination number around anions in different concentrations of IL solutions.
-"
+# ╔═╡ 518712fc-b8cd-4499-9a61-7f1da0e54669
+md"**Figure S10** – Coordination number of water molecules around anions paired with $[\text{EMIM}]^{+}$ and $[\text{BMIM}]^{+}$. The coordination numbers represent the average number of water molecules within 5 Å of each anion in the bulk region, over all all effective IL concentrations."
+
 
 # ╔═╡ 45942a4a-2143-47a9-a1b6-171e7f65ee72
 begin
@@ -178,10 +174,13 @@ begin
 	plot(heatmap(img_CN2, color=:auto), size=(1000, 750), ticks=false, framestyle=:none)
 end
 
-# ╔═╡ 62f462b1-4b14-4366-842f-55d9a911aa43
-md"
-**Figure S11** – Coordination number of the cation concerning the cations in systems with A) $$[\textrm{BF}_{4}]^{-}$$ and B) $$[\textrm{DCA}]^{-}$$ anions. Water coordination number around cations in systems paired with C) $$[\textrm{BF}_{4}]^{-}$$ and D) $$[\textrm{DCA}]^{-}$$ at different concentrations of IL solutions.
-"
+# ╔═╡ 7a5f29cf-b41d-4ab1-82af-65d6231881dc
+md"**Figure S11** – Coordination numbers of cations and water molecules in the bulk region of ionic liquid systems with:  
+**A)** Cation-cation coordination in systems containing the anion $[\textrm{BF}_{4}]^{-}$,  
+**B)** Cation-cation coordination in systems containing the anion $[\textrm{DCA}]^{-}$,  
+**C)** Water coordination around cations in systems paired with $[\textrm{BF}_{4}]^{-}$, and  
+**D)** Water coordination around cations in systems paired with $[\textrm{DCA}]^{-}$. The coordination numbers are calculated within 5 Å of each species and evaluated in the bulk region across different ionic liquid concentrations."
+
 
 # ╔═╡ f84ecd14-22d1-4c34-bda6-67b72453ba34
 begin
@@ -190,10 +189,13 @@ begin
 	plot(heatmap(img_CN3, color=:auto), size=(1000, 750), ticks=false, framestyle=:none)
 end
 
-# ╔═╡ 54cf7f5b-b61a-4ab0-934c-e5a897651868
-md"
-**Figure S12** – Coordination number of the cation with respect to the cations in systems with A) $$[\textrm{NO}_{3}]^{-}$$ and B) $$[\textrm{Cl}]^{-}$$ anions. Water coordination number around cations in systems paired with C) $$[\textrm{NO}_{3}]^{-}$$ and D) $$[\textrm{Cl}]^{-}$$ at different concentrations of IL solutions.
-"
+# ╔═╡ 17e63eff-fc2a-4d39-9730-7b59d6af0c90
+md"**Figure S12** – Coordination numbers of cations and water molecules in the bulk region of ionic liquid (IL) systems with:  
+**A)** Cation-cation coordination in systems containing the anion $[\textrm{NO}_{3}]^{-}$,  
+**B)** Cation-cation coordination in systems containing the anion $[\textrm{Cl}]^{-}$,  
+**C)** Water coordination around cations in systems paired with $[\textrm{NO}_{3}]^{-}$, and  
+**D)** Water coordination around cations in systems paired with $[\textrm{Cl}]^{-}$. The coordination numbers are calculated within 5 Å of each species and evaluated in the bulk region across different IL concentrations."
+
 
 # ╔═╡ 8c998b74-3463-4679-840e-3480da5e2e89
 md"
@@ -207,10 +209,12 @@ begin
 	plot(heatmap(img_wt1, color=:auto), size=(1000, 750), ticks=false, framestyle=:none)
 end
 
-# ╔═╡ 37a76f50-55b2-4a9a-ba6c-2abb003be878
-md"
-**Figure S13** – Minimum-distance distribution functions of water molecules in systems containing **A)** $[\text{EMIM}][\text{BF}_{4}]$, **B)** $[\text{EMIM}][\text{NO}_{3}]$, **C)** $[\text{BMIM}][\text{BF}_{4}]$, and **D)** $[\text{BMIM}][\text{NO}_{3}]$, evaluated across all simulated reference concentrations. Each curve represents the mean value derived from 20 independent simulation runs.
-"
+# ╔═╡ 368fb208-563e-4272-8c7c-b77082970042
+md"**Figure S13** – Minimum-distance distribution functions (MDDFs) of water molecules around the protein in systems containing ionic liquids (ILs) with:  
+**A)** $[\text{EMIM}][\text{BF}_{4}]$,  
+**B)** $[\text{EMIM}][\text{NO}_{3}]$,  
+**C)** $[\text{BMIM}][\text{BF}_{4}]$, and  
+**D)** $[\text{BMIM}][\text{NO}_{3}]$. The figure highlights the spatial distribution of water molecules relative to the protein surface, evaluated across all simulated reference concentrations (in $\mathrm{mol\ L^{-1}}$). Each curve represents the mean of 20 independent simulation runs, providing insights into water-protein interactions under varying ionic environments."
 
 # ╔═╡ fa51eb4a-28f2-4796-bd9c-3ba5af46c4c1
 begin
@@ -219,10 +223,13 @@ begin
 	plot(heatmap(img_wt2, color=:auto), size=(1000, 750), ticks=false, framestyle=:none)
 end
 
-# ╔═╡ c6dfed62-87a6-404b-90b3-f54126c9cbc2
-md"
-**Figure S14** – Kirkwood-Buff integrals of water molecules in systems containing **A)** $[\text{EMIM}][\text{BF}_{4}]$, **B)** $[\text{EMIM}][\text{NO}_{3}]$, **C)** $[\text{BMIM}][\text{BF}_{4}]$, and **D)** $[\text{BMIM}][\text{NO}_{3}]$, evaluated across all simulated reference concentrations. Each curve represents the mean value derived from 20 independent simulation runs.
-"
+# ╔═╡ 94e374ca-52f1-48d2-a102-5de5389933e1
+md"**Figure S14** – Kirkwood-Buff integrals (KBIs) of water molecules in systems containing ionic liquids (ILs) with:  
+**A)** $[\text{EMIM}][\text{BF}_{4}]$,  
+**B)** $[\text{EMIM}][\text{NO}_{3}]$,  
+**C)** $[\text{BMIM}][\text{BF}_{4}]$, and  
+**D)** $[\text{BMIM}][\text{NO}_{3}]$. The figure presents the KBIs of water, evaluated across all simulated reference concentrations (in $\mathrm{mol\ L^{-1}}$). Each curve represents the mean value calculated from 20 independent simulation runs, providing insights into the preferential solvation behavior and molecular organization of water in these IL systems."
+
 
 # ╔═╡ 647f26e5-453f-4db3-b824-a0c84c85f23d
 begin
@@ -231,10 +238,13 @@ begin
 	plot(heatmap(img_wt3, color=:auto), size=(1000, 750), ticks=false, framestyle=:none)
 end
 
-# ╔═╡ 9780253e-f7cf-4482-81bd-bd5034f34d77
-md"
-**Figure S15** – Minimum-distance distribution functions of water molecules in systems containing **A)** $[\text{EMIM}][\text{Cl}]$, **B)** $[\text{EMIM}][\text{DCA}]$, **C)** $[\text{BMIM}][\text{Cl}]$, and **D)** $[\text{BMIM}][\text{DCA}]$, evaluated across all simulated reference concentrations. Each curve represents the mean value derived from 20 independent simulation runs.
-"
+# ╔═╡ 3e2493c3-98fd-40e7-b5a5-1d0e663f141b
+md"**Figure S15** – Minimum-distance distribution functions (MDDFs) of water molecules around the protein in systems containing ionic liquids (ILs) with:  
+**A)** $[\text{EMIM}][\text{Cl}]$,  
+**B)** $[\text{EMIM}][\text{DCA}]$,  
+**C)** $[\text{BMIM}][\text{Cl}]$, and  
+**D)** $[\text{BMIM}][\text{DCA}]$. The figure illustrates the spatial distribution of water molecules relative to the protein surface, evaluated across all simulated reference concentrations (in $\mathrm{mol\ L^{-1}}$). Each curve represents the mean value calculated from 20 independent simulation runs, providing insights into water-protein interactions under varying ionic environments."
+
 
 # ╔═╡ a96a4b38-36ce-4c67-ac92-2692445ca86e
 begin
@@ -243,10 +253,13 @@ begin
 	plot(heatmap(img_wt4, color=:auto), size=(1000, 750), ticks=false, framestyle=:none)
 end
 
-# ╔═╡ fa0c9e2a-98ab-4ded-a09c-26219d3fd6ed
-md"
-**Figure S16** – Kirkwood-Buff integrals of water molecules in systems containing **A)** $[\text{EMIM}][\text{Cl}]$, **B)** $[\text{EMIM}][\text{DCA}]$, **C)** $[\text{BMIM}][\text{Cl}]$, and **D)** $[\text{BMIM}][\text{DCA}]$, evaluated across all simulated reference concentrations. Each curve represents the mean value derived from 20 independent simulation runs.
-"
+# ╔═╡ fea3ac09-90a8-4308-99f6-f6b2787ad04f
+md"**Figure S16** – Kirkwood-Buff integrals (KBIs) of water molecules in systems containing ionic liquids (ILs) with:  
+**A)** $[\text{EMIM}][\text{Cl}]$,  
+**B)** $[\text{EMIM}][\text{DCA}]$,  
+**C)** $[\text{BMIM}][\text{Cl}]$, and  
+**D)** $[\text{BMIM}][\text{DCA}]$. The figure presents the KBIs of water, evaluated across all simulated reference concentrations (in $\mathrm{mol\ L^{-1}}$). Each curve represents the mean value calculated from 20 independent simulation runs, offering insights into the preferential solvation and molecular organization of water in these IL systems."
+
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -2556,41 +2569,41 @@ version = "1.4.1+1"
 # ╟─610696f3-76c7-4be5-a105-3ea22b3f212c
 # ╟─ebffc62c-c33c-45ad-921e-e65b87b6d889
 # ╟─f2fa1b1a-4ce1-4a29-92db-d0993c13ca30
-# ╟─dc9b8701-437a-48c2-a510-7e03a14727ed
+# ╟─7ded2a42-cd22-4eb2-bf08-ed6d2ea22893
 # ╟─23cde5c3-8452-4cbb-ac1a-b35544492512
-# ╟─30ec26c2-946c-4d0c-8df9-4830244d5a11
+# ╟─eaeec702-8161-4cfa-a06f-cc9706690d0e
 # ╟─ca80155f-f014-4b7d-b9a2-c1558e9201df
-# ╟─78d62d51-272c-4c67-8f91-65011f3257c3
+# ╟─a234add7-f5e8-483d-b0a4-0492b29c7538
 # ╟─638e0eb2-1bc2-4bbb-99d9-416255251570
-# ╟─517fd90d-efaf-412a-8236-b5277a1b0a69
+# ╟─c9fb8e18-6b18-404c-b24b-4bda17c3e1fb
 # ╟─f7a323f0-a719-4618-9263-e7b371f558e6
 # ╟─c04e9302-1f3c-4617-821d-aa22978c16f2
-# ╟─a8640d76-8028-4a6e-a070-3082f4569bd9
+# ╟─0d63c7a3-df7d-4d62-a03f-babe5b758b37
 # ╟─94559bde-2235-420a-af13-b994fad498e2
-# ╟─b403a4fb-a13a-4379-afc6-fb2623727a69
+# ╟─42efe817-7eec-4211-b1d9-54047852a036
 # ╟─12738938-6b8d-4def-85d1-ba8e67be102f
-# ╟─95a06115-dff4-4c99-bf9e-fab68f8a2fdf
+# ╟─b9ded9b5-1a3a-4f6f-be76-aeef407fbc76
 # ╟─3c1f8568-8d2f-4cd3-b9c9-b36c75e7c877
-# ╟─981e78a0-2959-472c-aef9-003c9fff328f
+# ╟─71d8f6ca-a734-4d8f-8859-8855081f38c3
 # ╟─33a1fa66-dcaa-4720-99c8-c589541ed525
 # ╟─138d3d57-f4ff-47e1-a200-56aa9cb131d0
-# ╟─3f2c5b4b-630b-42cd-aa44-8eea9204065c
+# ╟─b1b3a2fc-0e12-4bcf-9eb0-33eed6e7c09b
 # ╟─f581511b-717e-4e7a-98d4-1884ebeda2c2
 # ╟─bddf9ef0-a97a-40e5-ac2c-8c8dc4e70d03
 # ╟─b1f11b33-7fa9-44fb-8a0a-58885b87abe6
-# ╟─6a3d81c1-5c66-43d4-9522-c1e27846d944
+# ╟─518712fc-b8cd-4499-9a61-7f1da0e54669
 # ╟─45942a4a-2143-47a9-a1b6-171e7f65ee72
-# ╟─62f462b1-4b14-4366-842f-55d9a911aa43
+# ╟─7a5f29cf-b41d-4ab1-82af-65d6231881dc
 # ╟─f84ecd14-22d1-4c34-bda6-67b72453ba34
-# ╟─54cf7f5b-b61a-4ab0-934c-e5a897651868
+# ╟─17e63eff-fc2a-4d39-9730-7b59d6af0c90
 # ╟─8c998b74-3463-4679-840e-3480da5e2e89
 # ╟─7cf16d5f-e4a3-488b-9c0b-1d83b71b0874
-# ╟─37a76f50-55b2-4a9a-ba6c-2abb003be878
+# ╟─368fb208-563e-4272-8c7c-b77082970042
 # ╟─fa51eb4a-28f2-4796-bd9c-3ba5af46c4c1
-# ╟─c6dfed62-87a6-404b-90b3-f54126c9cbc2
+# ╟─94e374ca-52f1-48d2-a102-5de5389933e1
 # ╟─647f26e5-453f-4db3-b824-a0c84c85f23d
-# ╟─9780253e-f7cf-4482-81bd-bd5034f34d77
+# ╟─3e2493c3-98fd-40e7-b5a5-1d0e663f141b
 # ╟─a96a4b38-36ce-4c67-ac92-2692445ca86e
-# ╟─fa0c9e2a-98ab-4ded-a09c-26219d3fd6ed
+# ╟─fea3ac09-90a8-4308-99f6-f6b2787ad04f
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002

@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.19.47
+# v0.20.3
 
 using Markdown
 using InteractiveUtils
@@ -19,12 +19,9 @@ md"""
 # Information on the Initial Boxes
 """
 
-# ╔═╡ 56878f0a-d52e-429e-89c7-d687d45fdbbc
-md"""
+# ╔═╡ e1106904-46bb-4219-a7fb-947f9e2ae13d
+md"**Table S1** – Data used to generate 20 replicate simulations for each ionic liquid concentration. The reference concentration (**RC**), given in $\text{mol L}^{-1}$, indicates the target initial concentration for the system setup. **Box sides** represent the dimensions of the cubic box after equilibration, where all boxes initially had a starting length of 95 Å. The table sequentially lists the number of cations (**Cation**), anions (**Anion**), and water molecules (**Water**). For simplicity, charges and underscores have been omitted in this and other tables."
 
-**Table S1** – Data used to generate 20 replicate simulations for each ionic liquid (IL) concentration. The reference concentration (**RC**), given in mol/L, indicates the target initial concentration for the system setup. **Box sides** represent the dimensions of the cubic box after equilibration, where all boxes initially had a starting length of 95 Å. The table sequentially lists the number of cations (**Cation**), anions (**Anion**), and water molecules (**Water**). Charges and underscores have been omitted in this and other tables to simplify the representation.
-
-"""
 
 # ╔═╡ 6f9c5765-e771-4058-bfcc-4e8c3269672d
 begin
@@ -36,10 +33,8 @@ md"
 # Bulk Concentration of Ions and Water
 "
 
-# ╔═╡ 0d4bbdfc-8153-4e70-9182-aeeec066f342
-md"""
-**Table S2** – Bulk concentration data for the components in 20 replicate simulations at each ionic liquid (IL) concentration. Values represent the mean across the 20 simulations. The reference concentration (**RC**), given in mol/L, indicates the target initial concentration for the system setup. **Box sides** represent the dimensions of the cubic box after equilibration, where all boxes initially had a starting length of 95 Å. The table lists the number of cations (**Cation**), the primary anion (**Anion**), and water molecules (**Water**). Charges and underscores are omitted here for simplicity.
-"""
+# ╔═╡ 713b3143-ca98-457a-bd8c-12610923ca60
+md"**Table S2** – Bulk concentration data for the components in 20 replicate simulations at each ionic liquid concentration. Values represent the mean across the 20 simulations. The reference concentration (**RC**), given in $\text{mol L}^{-1}$, indicates the target initial concentration for the system setup. **Box sides** represent the dimensions of the cubic box after equilibration, where all boxes initially had a starting length of 95 Å. The table lists the number of cations (**Cation**), the primary anion (**Anion**), and water molecules (**Water**)."
 
 # ╔═╡ c73c6e6a-c710-44f1-a3b4-8b9be4ecef2e
 begin
@@ -51,10 +46,8 @@ md"
 # Preferential solvation and preferential hydration parameters.
 "
 
-# ╔═╡ 1f95aa7f-a5ef-4fcb-ad69-76095b4ab624
-md"""
-**Table S3** – Data on preferential solvation (**Γcp**) and preferential hydration (**Γwp**) parameters. The values presented correspond to the mean (with standard error) calculated from 20 independent simulations for each reference concentration (**RC**).
-"""
+# ╔═╡ 6f4c9e07-ffa3-483c-95fa-d9e92554ffc5
+md"**Table S3** – Data on preferential solvation ($\Gamma_{\text{cp}}$) and preferential hydration ($\Gamma_{\text{wp}}$) parameters. The values presented correspond to the mean (with standard error) calculated from 20 independent simulations for each reference concentration (**RC**)."
 
 # ╔═╡ 71238401-b0c5-44ed-8c8c-d7ad349d0069
 begin
@@ -104,7 +97,7 @@ Unitful = "~1.21.0"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.11.0"
+julia_version = "1.11.2"
 manifest_format = "2.0"
 project_hash = "b3078b2ce0fbe491048359cab28fb7de0b5f4d06"
 
@@ -1756,13 +1749,13 @@ version = "17.4.0+2"
 # ╔═╡ Cell order:
 # ╟─610696f3-76c7-4be5-a105-3ea22b3f212c
 # ╟─9ad736e2-779d-11ef-2680-fbb35aa93397
-# ╟─56878f0a-d52e-429e-89c7-d687d45fdbbc
+# ╟─e1106904-46bb-4219-a7fb-947f9e2ae13d
 # ╟─6f9c5765-e771-4058-bfcc-4e8c3269672d
 # ╟─359f8f3c-5b1c-41e1-89ab-8de0de93cfef
-# ╟─0d4bbdfc-8153-4e70-9182-aeeec066f342
+# ╟─713b3143-ca98-457a-bd8c-12610923ca60
 # ╟─c73c6e6a-c710-44f1-a3b4-8b9be4ecef2e
 # ╟─4713f8d7-5030-46e1-b0a9-43999033e044
-# ╟─1f95aa7f-a5ef-4fcb-ad69-76095b4ab624
+# ╟─6f4c9e07-ffa3-483c-95fa-d9e92554ffc5
 # ╟─71238401-b0c5-44ed-8c8c-d7ad349d0069
 # ╟─9ccd12fa-bd55-4ebd-a41c-ec9edc8e06da
 # ╟─00000000-0000-0000-0000-000000000001
