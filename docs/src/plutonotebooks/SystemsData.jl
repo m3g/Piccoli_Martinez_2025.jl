@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.20.3
+# v0.19.46
 
 using Markdown
 using InteractiveUtils
@@ -53,12 +53,6 @@ md"**Table S3** – Data on preferential solvation ($\Gamma_{\text{cp}}$) and pr
 begin
 	pref_solv = DataFrame(CSV.File("Tables_data/data_pref.csv"))
 end
-
-# ╔═╡ 9ccd12fa-bd55-4ebd-a41c-ec9edc8e06da
-md"""
-!!! info "Notes"
-	This notebook provides data for generating the initial simulation boxes and post-NPT equilibration concentrations for all system components. We utilize the MolSimToolkit, PDBTools, DataFrames, and CSV packages in Julia. All data is stored in CSV files, and the environment ensures reproducibility by using the same package versions applied here.	
-"""
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
 PLUTO_PROJECT_TOML_CONTENTS = """
@@ -1757,6 +1751,5 @@ version = "17.4.0+2"
 # ╟─4713f8d7-5030-46e1-b0a9-43999033e044
 # ╟─6f4c9e07-ffa3-483c-95fa-d9e92554ffc5
 # ╟─71238401-b0c5-44ed-8c8c-d7ad349d0069
-# ╟─9ccd12fa-bd55-4ebd-a41c-ec9edc8e06da
 # ╟─00000000-0000-0000-0000-000000000001
 # ╟─00000000-0000-0000-0000-000000000002
