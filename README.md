@@ -3,7 +3,7 @@
 
 # Cation Hydrophobicity Effects on Protein Solvation in Aqueous Ionic Liquids
 
-Go to [docs](https://viniciuspiccoli.github.io/Piccoli_Martinez_2025.jl/dev/)
+Read the [documentation.](https://m3g.github.io/Piccoli_Martinez_2025.jl)
 
 ## Authors
 - **Vinicius Piccoli**¹

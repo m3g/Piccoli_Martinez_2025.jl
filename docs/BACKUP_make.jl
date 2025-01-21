@@ -37,7 +37,7 @@ makedocs(
 )
 
 deploydocs(
-    repo = "github.com/viniciuspiccoli/Piccoli_Martinez_2024_JMolLiq.jl.git",
+    repo = "github.com/m3g/Piccoli_Martinez_2024_JMolLiq.jl.git",
     target = "build",
     branch = "gh-pages",
     versions = ["stable" => "v^", "v#.#"],
