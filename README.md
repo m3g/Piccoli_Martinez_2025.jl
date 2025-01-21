@@ -1,5 +1,7 @@
 
-# Supporting Information for: Cation Hydrophobicity Effects on Protein Solvation in Aqueous Ionic Liquids
+## Supporting Information for: 
+
+# Cation Hydrophobicity Effects on Protein Solvation in Aqueous Ionic Liquids
 
 Go to [docs](https://viniciuspiccoli.github.io/Piccoli_Martinez_2025.jl/dev/)
 
