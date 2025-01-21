@@ -1,9 +1,7 @@
-[![Build Status](https://github.com/viniciuspiccoli/Piccoli_Martinez_2025.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/viniciuspiccoli/Piccoli_Martinez_2025.jl/actions/workflows/CI.yml?query=branch%3Amain)
-[![Coverage](https://codecov.io/gh/viniciuspiccoli/Piccoli_Martinez_2025.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/viniciuspiccoli/Piccoli_Martinez_2025.jl)
-
 
 # Supporting Information for: Cation Hydrophobicity Effects on Protein Solvation in Aqueous Ionic Liquids
 
+Go to [docs](https://viniciuspiccoli.github.io/Piccoli_Martinez_2025.jl/dev/)
 
 ## Authors
 - **Vinicius Piccoli**¹
@@ -19,4 +17,3 @@ Institute of Chemistry, Universidade Estadual de Campinas (UNICAMP).
 [Group Website](http://m3g.iqm.unicamp.br)
 
 
-Documentation at [docs](https://viniciuspiccoli.github.io/Piccoli_Martinez_2025.jl/dev/)
