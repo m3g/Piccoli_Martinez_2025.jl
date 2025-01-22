@@ -6,8 +6,9 @@ using InteractiveUtils
 
 # ╔═╡ 610696f3-76c7-4be5-a105-3ea22b3f212c
 begin
-	using DataFrames, CSV, PlutoUI
-	TableOfContents()
+	using DataFrames, CSV
+    import PlutoUI
+	PlutoUI.TableOfContents()
 end
 
 # ╔═╡ d88eb862-d7e5-4efd-9e60-ecdac5aa90d1
