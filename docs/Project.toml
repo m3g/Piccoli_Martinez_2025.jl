@@ -1,4 +1,6 @@
 [deps]
+CRC32 = "b4567568-9dcc-467e-9b62-c342d3a501d3"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
 LiveServer = "16fef848-5104-11e9-1b77-fb7a48bbb589"
 Pluto = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
+PlutoSliderServer = "2fc8631c-6f24-4c5b-bca7-cbb509c42db4"

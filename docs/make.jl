@@ -10,7 +10,6 @@ using Documenter
 import PlutoSliderServer
 import CRC32
 
-
 # build html pages of the pluto notebooks, only if the jl was updated
 #nbs = [
 #    "$(@__DIR__)/src/plutonotebooks/SystemsData.jl",
@@ -28,7 +27,7 @@ import CRC32
 #end
 
 makedocs(
-    sitename = "Piccoli_Martinez_2025.jl",
+    sitename = "Piccoli and Martínez, 2025",
     format=Documenter.HTML(;
         mathengine=Documenter.MathJax3(),
         size_threshold_ignore=[
