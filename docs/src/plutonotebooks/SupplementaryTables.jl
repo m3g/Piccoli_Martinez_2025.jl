@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.19.46
+# v0.20.4
 
 using Markdown
 using InteractiveUtils
@@ -24,8 +24,12 @@ md"**Table S1** – Reference concentrations (**RC**), in $\text{mol L}^{-1}$, a
 
 
 # ╔═╡ 6f9c5765-e771-4058-bfcc-4e8c3269672d
-begin
+begin 
 	box_data = DataFrame(CSV.File("Tables_data/box_data.csv"))
+	box_data[!, :Cation] = convert.(Int, box_data[!, :Cation])
+	box_data[!, :Anion] = convert.(Int, box_data[!, :Anion])
+	box_data[!, :Water] = convert.(Int, box_data[!, :Water])
+	box_data
 end
 
 # ╔═╡ 359f8f3c-5b1c-41e1-89ab-8de0de93cfef
@@ -71,7 +75,7 @@ PlutoUI = "~0.7.60"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.10.7"
+julia_version = "1.10.8"
 manifest_format = "2.0"
 project_hash = "5992591299a776f4a03ddbd5de330fd3c7777b5f"
 
