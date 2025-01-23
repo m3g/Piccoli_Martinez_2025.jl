@@ -7,7 +7,8 @@ using InteractiveUtils
 # ╔═╡ 610696f3-76c7-4be5-a105-3ea22b3f212c
 begin
 	using DataFrames, CSV
-    import PlutoUI
+	using PrettyTables
+	import PlutoUI
 	PlutoUI.TableOfContents()
 end
 
@@ -29,7 +30,7 @@ begin
 	box_data[!, :Cation] = convert.(Int, box_data[!, :Cation])
 	box_data[!, :Anion] = convert.(Int, box_data[!, :Anion])
 	box_data[!, :Water] = convert.(Int, box_data[!, :Water])
-	box_data
+	pretty_table(HTML, box_data, show_subheader=false, alignment=:c)
 end
 
 # ╔═╡ 359f8f3c-5b1c-41e1-89ab-8de0de93cfef
@@ -43,6 +44,7 @@ md"**Table S2** – Average bulk concentrations ($\text{mol L}^{-1}$) and standa
 # ╔═╡ c73c6e6a-c710-44f1-a3b4-8b9be4ecef2e
 begin
 	conc_data = DataFrame(CSV.File("Tables_data/bulk_concentration_data.csv"))
+	pretty_table(HTML, conc_data; show_subheader=false, alignment=:c)
 end
 
 # ╔═╡ 4713f8d7-5030-46e1-b0a9-43999033e044
@@ -56,6 +58,7 @@ md"**Table S3** – Preferential solvation ($\Gamma_{\text{cp}}$) and preferenti
 # ╔═╡ 71238401-b0c5-44ed-8c8c-d7ad349d0069
 begin
 	pref_solv = DataFrame(CSV.File("Tables_data/data_pref.csv"))
+	pretty_table(HTML, pref_solv; show_subheader=false, alignment=:c)
 end
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
@@ -64,11 +67,13 @@ PLUTO_PROJECT_TOML_CONTENTS = """
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
 DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 PlutoUI = "7f904dfe-b85e-4ff6-b463-dae2292396a8"
+PrettyTables = "08abe8d2-0d0c-5749-adfa-8a2ac140af0d"
 
 [compat]
 CSV = "~0.10.14"
 DataFrames = "~1.7.0"
 PlutoUI = "~0.7.60"
+PrettyTables = "~2.4.0"
 """
 
 # ╔═╡ 00000000-0000-0000-0000-000000000002
@@ -77,7 +82,7 @@ PLUTO_MANIFEST_TOML_CONTENTS = """
 
 julia_version = "1.10.8"
 manifest_format = "2.0"
-project_hash = "5992591299a776f4a03ddbd5de330fd3c7777b5f"
+project_hash = "990fbb43927c16ed09ce0497c5cfd59e3907bb58"
 
 [[deps.AbstractPlutoDingetjes]]
 deps = ["Pkg"]
