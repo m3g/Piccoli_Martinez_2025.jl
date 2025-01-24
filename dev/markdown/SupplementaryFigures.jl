@@ -54,22 +54,22 @@ println(io, "
 # Density map of the ions and water around the protein residues at ~1.0 mol L⁻¹.
 ")
 
-plot(io, "Figures/density2D_diff_DCA_low.png")
+plot(io, "Figures/density2D_diff_DCA.png")
 
 println(io, "**Figure S5** – Difference in protein residue contributions to the solvent-protein distribution functions for systems with [BMIM]⁺ (denoted as underscore (2)) and [EMIM]⁺ (denoted as underscore (1)). The density difference map compares the contributions of each protein residue to the MDDFs within 3.5 Å of the protein surface, based on data from 20 independent simulations for both cations. Red regions indicate a higher density of the solvent component in the [BMIM]⁺ system, while blue regions indicate a higher density in the [EMIM]⁺ system. The maps represent ~1.0  mol L⁻¹ IL solutions with the anion [DCA]⁻.")
 
-plot(io, "Figures/density2D_diff_Cl_low.png")
+plot(io, "Figures/density2D_diff_Cl.png")
 
 println(io, "**Figure S6** – Difference in protein residue contributions to the solvent-protein distribution functions for systems with [BMIM]⁺ (denoted as underscore (2)) and [EMIM]⁺ (denoted as underscore (1)). The density difference map compares the contributions of each protein residue to the MDDFs within 3.5 Å of the protein surface, based on data from 20 independent simulations for both cations. Red regions indicate a higher density of the solvent component in the [BMIM]⁺ system, while blue regions indicate a higher density in the [EMIM]⁺ system. The maps represent ~1.0 mol L⁻¹ IL solutions with the anion [Cl]⁻.
 ")
 
-plot(io, "Figures/density2D_diff_BF4_low.png")
+plot(io, "Figures/density2D_diff_BF4.png")
 
 println(io, "**Figure S7** – Difference in protein residue contributions to the solvent-protein distribution functions for systems with [BMIM]⁺ (denoted as underscore (2)) and [EMIM]⁺ (denoted as underscore (1)). The density difference map compares the contributions of each protein residue to the MDDFs within 3.5 Å of the protein surface, based on data from 20 independent simulations for both cations. Red regions indicate a higher density of the solvent component in the [BMIM]⁺ system, while blue regions indicate a higher density in the [EMIM]⁺ system. The maps represent ~1.0  mol L⁻¹ IL solutions with the anion [BF]<sub>4</sub><sup>-</sup>.
 ")
 
 # ╔═╡ 3c1f8568-8d2f-4cd3-b9c9-b36c75e7c877
-plot(io, "Figures/density2D_diff_NO3_low.png")
+plot(io, "Figures/density2D_diff_NO3.png")
 
 println(io, "**Figure S8** – Difference in protein residue contributions to the solvent-protein distribution functions for systems with [BMIM]⁺ (denoted as underscore (2)) and [EMIM]⁺ (denoted as underscore (1)). The density difference map compares the contributions of each protein residue to the MDDFs within 3.5 Å of the protein surface, based on data from 20 independent simulations for both cations. Red regions indicate a higher density of the solvent component in the [BMIM]⁺ system, while blue regions indicate a higher density in the [EMIM]⁺ system. The maps represent ~1.0 mol L⁻¹ IL solutions with the anion [NO]<sub>4</sub><sup>-</sup>.
 ")
