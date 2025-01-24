@@ -80,7 +80,7 @@ PrettyTables = "~2.4.0"
 PLUTO_MANIFEST_TOML_CONTENTS = """
 # This file is machine-generated - editing it directly is not advised
 
-julia_version = "1.10.8"
+julia_version = "1.10.7"
 manifest_format = "2.0"
 project_hash = "990fbb43927c16ed09ce0497c5cfd59e3907bb58"
 
