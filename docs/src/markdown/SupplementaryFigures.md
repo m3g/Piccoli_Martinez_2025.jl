@@ -42,21 +42,21 @@ All figures in this notebook were generated from simulation analysis with the [C
 # Density map of the ions and water around the protein residues at ~1.0 mol L⁻¹.
 
 
-![teste](https://raw.githubusercontent.com/m3g/Piccoli_Martinez_2025.jl/refs/heads/main/docs/src/plutonotebooks/Figures/density2D_diff_DCA.png)
+![teste](https://raw.githubusercontent.com/m3g/Piccoli_Martinez_2025.jl/refs/heads/main/docs/src/plutonotebooks/Figures/density2D_diff_DCA_low.png)
 
 **Figure S5** – Difference in protein residue contributions to the solvent-protein distribution functions for systems with [BMIM]⁺ (denoted as underscore (2)) and [EMIM]⁺ (denoted as underscore (1)). The density difference map compares the contributions of each protein residue to the MDDFs within 3.5 Å of the protein surface, based on data from 20 independent simulations for both cations. Red regions indicate a higher density of the solvent component in the [BMIM]⁺ system, while blue regions indicate a higher density in the [EMIM]⁺ system. The maps represent ~1.0  mol L⁻¹ IL solutions with the anion [DCA]⁻.
 
-![teste](https://raw.githubusercontent.com/m3g/Piccoli_Martinez_2025.jl/refs/heads/main/docs/src/plutonotebooks/Figures/density2D_diff_Cl.png)
+![teste](https://raw.githubusercontent.com/m3g/Piccoli_Martinez_2025.jl/refs/heads/main/docs/src/plutonotebooks/Figures/density2D_diff_Cl_low.png)
 
 **Figure S6** – Difference in protein residue contributions to the solvent-protein distribution functions for systems with [BMIM]⁺ (denoted as underscore (2)) and [EMIM]⁺ (denoted as underscore (1)). The density difference map compares the contributions of each protein residue to the MDDFs within 3.5 Å of the protein surface, based on data from 20 independent simulations for both cations. Red regions indicate a higher density of the solvent component in the [BMIM]⁺ system, while blue regions indicate a higher density in the [EMIM]⁺ system. The maps represent ~1.0 mol L⁻¹ IL solutions with the anion [Cl]⁻.
 
 
-![teste](https://raw.githubusercontent.com/m3g/Piccoli_Martinez_2025.jl/refs/heads/main/docs/src/plutonotebooks/Figures/density2D_diff_BF4.png)
+![teste](https://raw.githubusercontent.com/m3g/Piccoli_Martinez_2025.jl/refs/heads/main/docs/src/plutonotebooks/Figures/density2D_diff_BF4_low.png)
 
 **Figure S7** – Difference in protein residue contributions to the solvent-protein distribution functions for systems with [BMIM]⁺ (denoted as underscore (2)) and [EMIM]⁺ (denoted as underscore (1)). The density difference map compares the contributions of each protein residue to the MDDFs within 3.5 Å of the protein surface, based on data from 20 independent simulations for both cations. Red regions indicate a higher density of the solvent component in the [BMIM]⁺ system, while blue regions indicate a higher density in the [EMIM]⁺ system. The maps represent ~1.0  mol L⁻¹ IL solutions with the anion [BF]<sub>4</sub><sup>-</sup>.
 
 
-![teste](https://raw.githubusercontent.com/m3g/Piccoli_Martinez_2025.jl/refs/heads/main/docs/src/plutonotebooks/Figures/density2D_diff_NO3.png)
+![teste](https://raw.githubusercontent.com/m3g/Piccoli_Martinez_2025.jl/refs/heads/main/docs/src/plutonotebooks/Figures/density2D_diff_NO3_low.png)
 
 **Figure S8** – Difference in protein residue contributions to the solvent-protein distribution functions for systems with [BMIM]⁺ (denoted as underscore (2)) and [EMIM]⁺ (denoted as underscore (1)). The density difference map compares the contributions of each protein residue to the MDDFs within 3.5 Å of the protein surface, based on data from 20 independent simulations for both cations. Red regions indicate a higher density of the solvent component in the [BMIM]⁺ system, while blue regions indicate a higher density in the [EMIM]⁺ system. The maps represent ~1.0 mol L⁻¹ IL solutions with the anion [NO]<sub>4</sub><sup>-</sup>.
 
@@ -68,13 +68,11 @@ All figures in this notebook were generated from simulation analysis with the [C
 
 # Coordination number in the bulk solution.
 
-    **Coordination Number Calculation**
+Coordination numbers were computed using the **bulk_coordination()** function available in the [MolSimToolkit.jl](https://m3g.github.io/MolSimToolkit.jl/) package. It computes the coordination number of one type of solvent molecule relative to another solvent molecule, as a function of the distance to a reference solute molecule.
 
-	Coordination numbers were computed using the **bulk_coordination()** function available in the [MolSimToolkit.jl](https://m3g.github.io/MolSimToolkit.jl/) package. It computes the coordination number of one type of solvent molecule relative to another solvent molecule, as a function of the distance to a reference solute molecule.
+Effectively, the maximum distance to the solute considered for a solvent molecule to be coordinated is set to 5 Å in the following plots. 
 
-	Effectively, the maximum distance to the solute considered for a solvent molecule to be coordinated is set to 5 Å in the following plots. 
-
-	The concentrations represent the actual bulk concentrations of the ionic liquids, calculated after system equilibration.
+The concentrations represent the actual bulk concentrations of the ionic liquids, calculated after system equilibration.
 
 
 ![teste](https://raw.githubusercontent.com/m3g/Piccoli_Martinez_2025.jl/refs/heads/main/docs/src/plutonotebooks/Figures/CN_anion_water.png)
